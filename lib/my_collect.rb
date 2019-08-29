@@ -7,8 +7,8 @@ def my_collect(array)
   collection
 end
 
-my_collect(languages) do |language|
-  language.upcase
+my_collect(languages) do |lang|
+  lang.upcase
 end
 
 my_collect(students) do |student|
